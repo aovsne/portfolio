@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUESS GAME</title>
+	<link rel="shortcut icon" href="img/number.jpg">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<div class="gogo">
+		<h1 class="animated flash infinite head">LETS PLAY A GUESSING NUMBER 	GAME!</h1>
+		<h3>You get 10 chances to guess the right number.</h3>
+	</div>
+	<div class="ruru">
+		<input id="guess" type="number" placeholder="Choose number between 1 - 100"><br>
+		<button class="btn btn-default" id="click" type="button" onclick="getInfo()">CLICK</button><br>
+		<h3>Your Trials</h3>
+		<h3 id="display"></h3>
+	</div>
+	<div class="row">
+		<div class="one col-sm-6">
+			<div style="text-align: center" class="two">
+				<h1 id="result"></h1>
+			</div>
+		</div>
+		<div style="text-align: center" class="one col-sm-6">
+			<div class="two">
+				<h1 id="dudu"></h1>
+			</div>
+		</div>
+	</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
